@@ -16,7 +16,7 @@ Rules-Requires-Root: no
 
 Package: fm-common-dev
 Section: libdevel
-Architecture: amd64
+Architecture: amd64 arm64
 Multi-Arch: no
 Depends: fm-common (= ${binary:Version}), ${misc:Depends}
 Description: StarlingX fault management client library - header files
